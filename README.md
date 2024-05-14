@@ -12,9 +12,7 @@ El programa con hilos dió como resultado un tiempo menor ya que las tareas se e
 Comparando mis tiempos de ejecución con los tiempos de un compañero, noto una leve diferencia. Sus tiempos fueron: 4.02 con hilos y 5.1 segundos sin hilos. Esto es debido a los diferentes componentes de nuestras computadoras.
 Una computadora con mejores componentes que la otra ejecutará más rapido los programas.
 
-### c) Ejecutar el archivo suma_rasta.py unas 10 veces, luego descomentar
-(borrar el #) las líneas 11,12,19 y 20 guardarlo y ejecutarlo otras 10
-veces. ¿Qué pasó? ¿Por qué?
+### c) Ejecutar el archivo suma_rasta.py unas 10 veces, luego descomentar (borrar el #) las líneas 11,12,19 y 20 guardarlo y ejecutarlo otras 10 veces. ¿Qué pasó? ¿Por qué?
 
 Con el archivo comentado: el valor final es siempre 0 y el tiempo es 0.36 segundos promedio.
 
@@ -24,3 +22,13 @@ Lo que pasó al descomentar el código es que se agregaron dos "FOR" a las funci
 Este "FOR" se itera 1000 veces y está dentro de otro "FOR" que se itera 100000 veces. Todas estas iteraciones hacen que el tiempo de ejecución sea mayor.
 
 El valor final (variable "acumulador") es distinto cada vez que se compila ya que la variable "a" no tiene un valor predefinido, por lo tanto toma un valor aleatorio. Luego "acumulador" = "a".
+
+### 2a)  Problema resuelto de las hamburguesas con distribución equitativa: 
+https://github.com/agustinbarbero/ASO2024TPs/blob/main/TP3/burger2A.c
+
+
+
+### 2b) Imagen para el problema de las hamburguesas con 2 comensales y 8 hamburguesas:
+https://github.com/agustinbarbero/ASO2024TPs/blob/main/TP3/2b%20TP3%20ARQ.jpg
+      
+![2b TP3 ARQ](https://github.com/agustinbarbero/ASO2024TPs/assets/167543420/6e8714c7-d4d5-4adf-ae22-46de6418c252)
