@@ -1,3 +1,7 @@
+# PARCIAL
+[Video de Introduccion a los Sistemas Operativos y Round Robin](https://www.youtube.com/watch?v=OceUgiV94qw)
+
+
 # TP3 
 ### 1) Ejecutar varias veces los códigos escritos en Python: sinhilos.py y conhilos.py
 
