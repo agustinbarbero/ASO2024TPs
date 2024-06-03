@@ -27,6 +27,10 @@ Este "FOR" se itera 1000 veces y está dentro de otro "FOR" que se itera 100000 
 
 El valor final (variable "acumulador") es distinto cada vez que se compila ya que la variable "a" no tiene un valor predefinido, por lo tanto toma un valor aleatorio. Luego "acumulador" = "a".
 
+El programa tiene dos hilos ("restador" y "sumador"), ambos utilizan una variable global "acumulador" que es la zona crítica. 
+"restador" y "sumador" usan este recurso compartido sin ningún tipo de control, por lo tanto se puede producir un error (race condition), que es cuando los hilos no se ejecutan en el orden esperado.
+
+
 ### 2a)  Problema resuelto de las hamburguesas con distribución equitativa: 
 https://github.com/agustinbarbero/ASO2024TPs/blob/main/TP3/burger2A.c
 
