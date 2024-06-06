@@ -25,10 +25,9 @@ Con el archivo descomentado: el valor final varia mucho y el tiempo es de 9.85 s
 Lo que pasó al descomentar el código es que se agregaron dos "FOR" a las funciones "sumador" y "restador". 
 Este "FOR" se itera 1000 veces y está dentro de otro "FOR" que se itera 100000 veces. Todas estas iteraciones hacen que el tiempo de ejecución sea mayor.
 
-El valor final (variable "acumulador") es distinto cada vez que se compila ya que la variable "a" no tiene un valor predefinido, por lo tanto toma un valor aleatorio. Luego "acumulador" = "a".
-
-El programa tiene dos hilos ("restador" y "sumador"), ambos utilizan una variable global "acumulador" que es la zona crítica. 
-"restador" y "sumador" usan este recurso compartido sin ningún tipo de control, por lo tanto se puede producir un error (race condition), que es cuando los hilos no se ejecutan en el orden esperado.
+Con el código comentado los dos hilos ("restador" y "sumador") suman 5 y restan 5 a la variable "a" y ambos utilizan una variable global "acumulador" que es la zona crítica. 
+"restador" y "sumador" usan este recurso compartido sin ningún tipo de control, por lo tanto se puede producir un error (race condition), que es cuando los hilos no se ejecutan en el orden esperado. 
+Cuando se descomenta el código también sucede el race condition, el programa entra a un hilo y lo cicla 1000 veces y luego entra al otro hilo y hace lo mismo. En ese momento se produce el error.
 
 
 ### 2a)  Problema resuelto de las hamburguesas con distribución equitativa: 
