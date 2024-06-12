@@ -3,11 +3,14 @@
 
 # TP5
 En la parte 1 del trabajo práctico elegí hacer un script de adivinar un número aleatorio entre 1 y 100. Implementé un contador que muestre cuantos intentos le tomó al usuario adivinar el número.
+
 [Terminal del ejercicio 1](https://github.com/agustinbarbero/ASO2024TPs/blob/main/TP5/adivinarNumero.png)
 
 En la parte 2 del trabajo práctico usé la API de http://weatherapi.com para obtener el clima actual de una ciudad, en mi caso elegí Hawaii. Se muestran datos como el país en  donde queda la ciudad, el estado actual del clima, la temperatura y la humedad.
-La creación de los archivos lo hice mediante el comando "nano" seguido del nombre del archivo. Luego para ejecutarlos usé el comando ./ejParte1.sh .
+
 [Terminal del ejercicio 2](https://github.com/agustinbarbero/ASO2024TPs/blob/main/TP5/climaHawaii.png)
+
+La creación de los archivos lo hice mediante el comando "nano" seguido del nombre del archivo. Luego para ejecutarlos usé el comando ./ejParte1.sh .
 
 # TP3 
 ### 1) Ejecutar varias veces los códigos escritos en Python: sinhilos.py y conhilos.py
